@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="15dp"
+    android:elevation="5dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:padding="10px">
+
+
+        <ImageView
+            android:id="@+id/view_product"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fruits" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="252dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/semibold"
+            android:text="Название продукта"
+            android:textColor="#000000"
+            android:textSize="27sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/view_product"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.243"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/semibold"
+            android:text="100"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/semibold"
+            android:text="Цена:"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            app:layout_constraintStart_toEndOf="@+id/view_product"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/semibold"
+            android:text="руб."
+            android:textColor="#000000"
+            android:textSize="25sp"
+            app:layout_constraintStart_toEndOf="@+id/cost"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

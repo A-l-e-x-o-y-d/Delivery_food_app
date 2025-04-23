@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Products">
+
+    <TextView
+        android:id="@+id/viewProduct"
+        android:layout_width="276dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/semibold"
+        android:text="Вид"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/personal_account"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile2" />
+
+    <ImageView
+        android:id="@+id/cart"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/personal_account"
+        app:layout_constraintEnd_toStartOf="@+id/personal_account"
+        app:layout_constraintTop_toTopOf="@+id/personal_account"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_shopping_cart_3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerItemCart"
+        android:layout_width="409dp"
+        android:layout_height="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewProduct"
+        app:layout_constraintVertical_bias="0.652" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

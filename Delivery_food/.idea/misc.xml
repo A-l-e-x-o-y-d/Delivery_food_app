@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/cart_button_bg.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_bx_cart_2.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_bx_cart_3.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_bx_share_alt_1.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_group_1675.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_group_400.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_group_401.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_heart.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_keyboard_arrow_left_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_location.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_location_on_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_menu_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_notification.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_rectangle_344.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_short.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/ic_star_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/layout_bg.xml" value="0.2703125" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/drawable/search_bg.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/activity_address_edit.xml" value="0.4" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/activity_bread.xml" value="0.1" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/activity_cart.xml" value="0.536" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/activity_catalog.xml" value="0.40589569160997735" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/activity_item_page.xml" value="0.2" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/activity_order.xml" value="0.536" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/activity_personal_account.xml" value="0.264" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/activity_products.xml" value="0.152" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/activity_signup.xml" value="0.4" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/item_cart.xml" value="0.176" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/item_cartt.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/product.xml" value="0.72" />
+        <entry key="..\:/Users/Alexey/Desktop/Delivery_food/app/src/main/res/layout/view_product.xml" value="0.3155080213903743" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
